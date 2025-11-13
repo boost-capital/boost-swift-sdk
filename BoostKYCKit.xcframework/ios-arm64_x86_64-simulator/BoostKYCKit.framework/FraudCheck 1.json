@@ -1,0 +1,45 @@
+{
+  "fraud_check": "rejected",
+  "check_details": {
+    "manipulation_check": "passed",
+    "check_digit": {
+      "document_number": "pass",
+      "date_of_birth": "pass",
+      "date_of_expiry": "pass",
+      "composite": "pass"
+    },
+    "mrz_non_mrz_match": {
+      "status": "rejected",
+      "field_comparisons": {
+        "document_number": {
+          "score": 1,
+          "match": "pass"
+        },
+        "first_name": {
+          "score": 1,
+          "match": "pass"
+        },
+        "last_name": {
+          "score": 1,
+          "match": "pass"
+        },
+        "gender": {
+          "score": 1,
+          "match": "pass"
+        },
+        "date_of_birth": {
+          "score": 1,
+          "match": "pass"
+        },
+        "expiry_date": {
+          "score": 0,
+          "match": "fail"
+        }
+      }
+    }
+  },
+  "confidence_score": 0.855,
+  "errors": [
+    "mrz_matching: rejected"
+  ]
+}

@@ -1,0 +1,67 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios14-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BoostKYCKit
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+import AVFoundation
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import QuartzCore
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum BoostKYCError : Swift.Error, Foundation.LocalizedError {
+  case userCanceledFlow
+  case initializationFailed(reason: Swift.String)
+  case failedToFindPresentingViewController
+  case missingPlistKey(_: Swift.String)
+  case cameraPermissionDenied
+  case somethingWentWrong
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
+}
+public enum BoostKYCDocumentType : Swift.String, Swift.Decodable {
+  case idCard
+  case passport
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol BoostKYCEventDelegate : AnyObject {
+  func boostKYC(didCapturePhoto photoData: Foundation.Data, for documentType: BoostKYCKit.BoostKYCDocumentType)
+}
+public enum Environment {
+  case production
+  case sandbox
+  public static func == (a: BoostKYCKit.Environment, b: BoostKYCKit.Environment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func printInSDK(_ items: Any...)
+@_hasMissingDesignatedInitializers final public class BoostKYC {
+  public static let shared: BoostKYCKit.BoostKYC
+  weak final public var eventDelegate: (any BoostKYCKit.BoostKYCEventDelegate)?
+  final public func configure(apiKey: Swift.String)
+  @_Concurrency.MainActor final public func startVerification(for type: BoostKYCKit.BoostKYCDocumentType) async throws -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func startVerification(for type: BoostKYCKit.BoostKYCDocumentType, completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
+  #endif
+  @objc deinit
+}
+extension BoostKYCKit.BoostKYCDocumentType : Swift.Equatable {}
+extension BoostKYCKit.BoostKYCDocumentType : Swift.Hashable {}
+extension BoostKYCKit.BoostKYCDocumentType : Swift.RawRepresentable {}
+extension BoostKYCKit.Environment : Swift.Equatable {}
+extension BoostKYCKit.Environment : Swift.Hashable {}

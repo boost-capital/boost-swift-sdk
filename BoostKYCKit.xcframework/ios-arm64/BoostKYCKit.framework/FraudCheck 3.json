@@ -1,0 +1,50 @@
+{
+  "fraud_check": "rejected",
+  "check_details": {
+    "manipulation_check": "failed",
+    "check_digit": {
+      "document_number": "fail",
+      "date_of_birth": "fail",
+      "date_of_expiry": "fail",
+      "composite": "fail"
+    },
+    "mrz_non_mrz_match": {
+      "status": "undetermined",
+      "field_comparisons": {
+        "document_number": {
+          "score": 0,
+          "match": "fail"
+        },
+        "first_name": {
+          "score": 0,
+          "match": "fail"
+        },
+        "last_name": {
+          "score": 0,
+          "match": "fail"
+        },
+        "gender": {
+          "score": 0,
+          "match": "fail"
+        },
+        "date_of_birth": {
+          "score": 0,
+          "match": "fail"
+        },
+        "expiry_date": {
+          "score": 0,
+          "match": "fail"
+        }
+      }
+    }
+  },
+  "confidence_score": 0.39,
+  "errors": [
+    "Missing MRZ data in OCR response",
+    "manipulation_check: id_photo_replacement",
+    "manipulation_check: edge_seam_detection",
+    "manipulation_check: copy_paste_forgery",
+    "manipulation_check: color_texture_inconsistency",
+    "check_digit: document_number, date_of_birth, date_of_expiry, composite validation failed"
+  ]
+}
