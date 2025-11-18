@@ -6,83 +6,59 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		X8ZnyppTX79SfGXagDYw1/wDtV0=
+		BsHiwD7olc/7BFpmUC/xINAJHUU=
 		</data>
 		<key>CameraVC.nib</key>
 		<data>
-		ZH8KBjtb5eHfgqUIpl/sarLROBY=
-		</data>
-		<key>FraudCheck 1.json</key>
-		<data>
-		uUO9O4fF2zVUKAi9mpUGkVqAHj0=
-		</data>
-		<key>FraudCheck 2.json</key>
-		<data>
-		wFU+Ac6qI6I3DQbBho5ZeZRtlto=
-		</data>
-		<key>FraudCheck 3.json</key>
-		<data>
-		zx+bMd66fHNv0uUO/eMVLeZQa/0=
-		</data>
-		<key>FraudCheck 4.json</key>
-		<data>
-		Ca4iQ99vQbglUtUht5TpAGQZGys=
-		</data>
-		<key>FraudCheck 5.json</key>
-		<data>
-		WaDZNH0lKdAv5aHm2RUHJHpWZbM=
+		vUijFGZu9v+qFONJVw6qpOgIrJw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		j+8UQXaS3EqtGuyC5m8WQmyI3Lw=
+		CJftW9lFqcZf7VPsEEa0QnJX5p4=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MwhYoyq0x0mxrdAdO3vfrhI6BTU=
+		iR77OjJOalyUkPlx+Vt9mRY2IMs=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FXCtsvhVsNlxN/xJbEYluSiAnzI=
+		M6IlaGb40WhbcB7CDdd6zgj5vB8=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lF1GmCGaCagaJhPiR7Ncio4/JHo=
+		qyrLPUJXHdXScfcziF2MlrQJuxQ=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FXCtsvhVsNlxN/xJbEYluSiAnzI=
+		M6IlaGb40WhbcB7CDdd6zgj5vB8=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		L8PbHpGFTVGtVn2pfim/z1hO1y0=
+		Zey3HAzI8+6WXeWYeg3CfSOI7ss=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MwhYoyq0x0mxrdAdO3vfrhI6BTU=
+		iR77OjJOalyUkPlx+Vt9mRY2IMs=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/Sk+6eKW3YVmgauYjcWippMRVgY=
+		gEPa69YyrC0n/iLYO1eDbA9bIfc=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		60CxysYzFrDKse5WwDuR4BzJf1g=
+		u951ejdVTgxkvOWGrfOC/eWa6k8=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/Sk+6eKW3YVmgauYjcWippMRVgY=
+		gEPa69YyrC0n/iLYO1eDbA9bIfc=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XktAutldXXX5dORdLNkw5XKW0yQ=
-		</data>
-		<key>README.md</key>
-		<data>
-		OFZaTy1Ph/CvU7NtjONLVHIuCv8=
+		E4em0J3SqNQMJ0X4QoULi3md5+E=
 		</data>
 		<key>StatusViewController.nib</key>
 		<data>
-		kgnzO94hS+hSjfJeVeUbyPYGZP4=
+		FSVOL9+AzugXJWUAr9ZqjSyyFzI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -91,133 +67,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ijk8EUOtk6ZZf3nWDKOox61ZD+J4AUZ9iG1WRYQZbFQ=
+			AF855L/sTJSajZ7U6361vpCN8QDHaJgc0qSkGvT/Ozw=
 			</data>
 		</dict>
 		<key>CameraVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RMleDDTtaRKc2fxP9MrK0ISO4Duuc5Wjyqc1tN/LDX0=
-			</data>
-		</dict>
-		<key>FraudCheck 1.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			em/KScyVlKW2z1p+gzsd7NseL+FdxILdk/Jhs8l/4XI=
-			</data>
-		</dict>
-		<key>FraudCheck 2.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qYaecaI01we8bOQnhAqPQEken8HC9agOQ+GVwtNTqD4=
-			</data>
-		</dict>
-		<key>FraudCheck 3.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Du3B5PMGlhCRvZMTceqtNV0rF8ITcBWSAAD+2AKpZdI=
-			</data>
-		</dict>
-		<key>FraudCheck 4.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PxuPwt1jNfyYqz3F53HkVjvMchMA/U7lArRe6kSsQmw=
-			</data>
-		</dict>
-		<key>FraudCheck 5.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zpHSUf8TG/O0MzkDAEKtcUZVP9WqzOOm9XNsEBsbotU=
+			DWTTcmcTlPps69SU8T0K2LAwDFFZLDgMoI+NFVG1fow=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Y8W6njp3PVDTJupGtaE/hh3UdoTmZGB3+uGMZ6G64o=
+			qBV+5rKHZeS2xx/DeRyJcCXwV2SUFWNU227XGvDL+r4=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4FTQq0+Zhd4Fmub1wj4ExNNDRsHFWK9/CLLYveMG00w=
+			vKK2hXJXWjlHS7DLBjFhBeGgmyQLVa0lH83BrZKuOgE=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h72266pV5j4yGiGuCIXLZHc6nyRnmCCuvzPUVi/gDbk=
+			eOELts8c9Z3s8hqc6U/m5uvmgVjqUYyLJfPPqdr8ej0=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4FTQq0+Zhd4Fmub1wj4ExNNDRsHFWK9/CLLYveMG00w=
+			vKK2hXJXWjlHS7DLBjFhBeGgmyQLVa0lH83BrZKuOgE=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0GV5xi4PjgWj5k/9F0dUxr8Gv+VARl4ozRyn3OCDUbw=
+			/HUnRSduqq5eUE+qqLMLmqFrEagnz1lSZ5eX1J9E25Q=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Y8W6njp3PVDTJupGtaE/hh3UdoTmZGB3+uGMZ6G64o=
+			qBV+5rKHZeS2xx/DeRyJcCXwV2SUFWNU227XGvDL+r4=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEyKzi0+0rrASGhgYoKX+As3U5xr8Xp+hswhqH6bmvg=
+			Rr8zB3TBS1/oFU3iTfUi89NAcVyC/U3hOTnKx5N7wlY=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iggf4P20lhrgodxLHcHDdbSE32ao2PDw+W8Mud0w/h0=
+			ylI+Vkvlfpm15LnNQUkkF+v8Vkeim8NUBa1kXwU4gjw=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEyKzi0+0rrASGhgYoKX+As3U5xr8Xp+hswhqH6bmvg=
+			Rr8zB3TBS1/oFU3iTfUi89NAcVyC/U3hOTnKx5N7wlY=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qKlDD8MVmWeM/mi4WnQUyqJMGv1z3zUUTVrJ1Sjq93w=
-			</data>
-		</dict>
-		<key>README.md</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/pDiCz1RgytWKpNTPb7UVEvF+vMx7sAvhIscjmF/2yw=
+			kIyKH0WHjf+fRNhDCFBbt5/5ZNcWeG/EqzGrqHKAx2g=
 			</data>
 		</dict>
 		<key>StatusViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D58+A4+3E4wH80iFZlhh3PLBFCA/WNZQt7amXc9VIgg=
+			aZ7Y9CZatGNRODdQBv7lM0zfPZKOqSqr4TM4M9r8rws=
 			</data>
 		</dict>
 	</dict>

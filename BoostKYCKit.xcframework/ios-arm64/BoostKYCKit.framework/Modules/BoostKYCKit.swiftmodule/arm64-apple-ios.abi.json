@@ -6,6 +6,1118 @@
     "children": [
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "QuartzCore",
+        "printedName": "QuartzCore",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BoostKYC",
+        "printedName": "BoostKYC",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BoostKYC",
+                "printedName": "BoostKYCKit.BoostKYC",
+                "usr": "s:11BoostKYCKit0A3KYCC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11BoostKYCKit0A3KYCC6sharedACvpZ",
+            "mangledName": "$s11BoostKYCKit0A3KYCC6sharedACvpZ",
+            "moduleName": "BoostKYCKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoostKYC",
+                    "printedName": "BoostKYCKit.BoostKYC",
+                    "usr": "s:11BoostKYCKit0A3KYCC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BoostKYCKit0A3KYCC6sharedACvgZ",
+                "mangledName": "$s11BoostKYCKit0A3KYCC6sharedACvgZ",
+                "moduleName": "BoostKYCKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventDelegate",
+            "printedName": "eventDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any BoostKYCKit.BoostKYCEventDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvp",
+            "mangledName": "$s11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvp",
+            "moduleName": "BoostKYCKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any BoostKYCKit.BoostKYCEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoostKYCEventDelegate",
+                        "printedName": "any BoostKYCKit.BoostKYCEventDelegate",
+                        "usr": "s:11BoostKYCKit0A16KYCEventDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvg",
+                "mangledName": "$s11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvg",
+                "moduleName": "BoostKYCKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any BoostKYCKit.BoostKYCEventDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoostKYCEventDelegate",
+                        "printedName": "any BoostKYCKit.BoostKYCEventDelegate",
+                        "usr": "s:11BoostKYCKit0A16KYCEventDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvs",
+                "mangledName": "$s11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvs",
+                "moduleName": "BoostKYCKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvM",
+                "mangledName": "$s11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvM",
+                "moduleName": "BoostKYCKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11BoostKYCKit0A3KYCC9configure6apiKeyySS_tF",
+            "mangledName": "$s11BoostKYCKit0A3KYCC9configure6apiKeyySS_tF",
+            "moduleName": "BoostKYCKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startVerification",
+            "printedName": "startVerification(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BoostKYCDocumentType",
+                "printedName": "BoostKYCKit.BoostKYCDocumentType",
+                "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11BoostKYCKit0A3KYCC17startVerification3foryAA0A15KYCDocumentTypeO_tYaKF",
+            "mangledName": "$s11BoostKYCKit0A3KYCC17startVerification3foryAA0A15KYCDocumentTypeO_tYaKF",
+            "moduleName": "BoostKYCKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startVerification",
+            "printedName": "startVerification(for:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BoostKYCDocumentType",
+                "printedName": "BoostKYCKit.BoostKYCDocumentType",
+                "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11BoostKYCKit0A3KYCC17startVerification3for10completionyAA0A15KYCDocumentTypeO_ys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s11BoostKYCKit0A3KYCC17startVerification3for10completionyAA0A15KYCDocumentTypeO_ys6ResultOyyts5Error_pGctF",
+            "moduleName": "BoostKYCKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11BoostKYCKit0A3KYCC",
+        "mangledName": "$s11BoostKYCKit0A3KYCC",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BoostKYCDocumentType",
+        "printedName": "BoostKYCDocumentType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "idCard",
+            "printedName": "idCard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoostKYCKit.BoostKYCDocumentType.Type) -> BoostKYCKit.BoostKYCDocumentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoostKYCDocumentType",
+                    "printedName": "BoostKYCKit.BoostKYCDocumentType",
+                    "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BoostKYCKit.BoostKYCDocumentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoostKYCDocumentType",
+                        "printedName": "BoostKYCKit.BoostKYCDocumentType",
+                        "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO6idCardyA2CmF",
+            "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO6idCardyA2CmF",
+            "moduleName": "BoostKYCKit"
+          },
+          {
+            "kind": "Var",
+            "name": "passport",
+            "printedName": "passport",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoostKYCKit.BoostKYCDocumentType.Type) -> BoostKYCKit.BoostKYCDocumentType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoostKYCDocumentType",
+                    "printedName": "BoostKYCKit.BoostKYCDocumentType",
+                    "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BoostKYCKit.BoostKYCDocumentType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoostKYCDocumentType",
+                        "printedName": "BoostKYCKit.BoostKYCDocumentType",
+                        "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO8passportyA2CmF",
+            "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO8passportyA2CmF",
+            "moduleName": "BoostKYCKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BoostKYCKit.BoostKYCDocumentType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoostKYCDocumentType",
+                    "printedName": "BoostKYCKit.BoostKYCDocumentType",
+                    "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "BoostKYCKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO8rawValueSSvp",
+            "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO8rawValueSSvp",
+            "moduleName": "BoostKYCKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO8rawValueSSvg",
+                "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO8rawValueSSvg",
+                "moduleName": "BoostKYCKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO",
+        "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO",
+        "moduleName": "BoostKYCKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -19,43 +1131,6 @@
         "name": "BoostKYCError",
         "printedName": "BoostKYCError",
         "children": [
-          {
-            "kind": "Var",
-            "name": "userCanceledFlow",
-            "printedName": "userCanceledFlow",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BoostKYCKit.BoostKYCError.Type) -> BoostKYCKit.BoostKYCError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BoostKYCError",
-                    "printedName": "BoostKYCKit.BoostKYCError",
-                    "usr": "s:11BoostKYCKit0A8KYCErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BoostKYCKit.BoostKYCError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BoostKYCError",
-                        "printedName": "BoostKYCKit.BoostKYCError",
-                        "usr": "s:11BoostKYCKit0A8KYCErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11BoostKYCKit0A8KYCErrorO16userCanceledFlowyA2CmF",
-            "mangledName": "$s11BoostKYCKit0A8KYCErrorO16userCanceledFlowyA2CmF",
-            "moduleName": "BoostKYCKit"
-          },
           {
             "kind": "Var",
             "name": "initializationFailed",
@@ -394,280 +1469,34 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BoostKYCDocumentType",
-        "printedName": "BoostKYCDocumentType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "idCard",
-            "printedName": "idCard",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BoostKYCKit.BoostKYCDocumentType.Type) -> BoostKYCKit.BoostKYCDocumentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BoostKYCDocumentType",
-                    "printedName": "BoostKYCKit.BoostKYCDocumentType",
-                    "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BoostKYCKit.BoostKYCDocumentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BoostKYCDocumentType",
-                        "printedName": "BoostKYCKit.BoostKYCDocumentType",
-                        "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO6idCardyA2CmF",
-            "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO6idCardyA2CmF",
-            "moduleName": "BoostKYCKit"
-          },
-          {
-            "kind": "Var",
-            "name": "passport",
-            "printedName": "passport",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BoostKYCKit.BoostKYCDocumentType.Type) -> BoostKYCKit.BoostKYCDocumentType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BoostKYCDocumentType",
-                    "printedName": "BoostKYCKit.BoostKYCDocumentType",
-                    "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BoostKYCKit.BoostKYCDocumentType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BoostKYCDocumentType",
-                        "printedName": "BoostKYCKit.BoostKYCDocumentType",
-                        "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO8passportyA2CmF",
-            "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO8passportyA2CmF",
-            "moduleName": "BoostKYCKit"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "BoostKYCKit.BoostKYCDocumentType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BoostKYCDocumentType",
-                    "printedName": "BoostKYCKit.BoostKYCDocumentType",
-                    "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO8rawValueACSgSS_tcfc",
-            "moduleName": "BoostKYCKit",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO8rawValueSSvp",
-            "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO8rawValueSSvp",
-            "moduleName": "BoostKYCKit",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO8rawValueSSvg",
-                "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO8rawValueSSvg",
-                "moduleName": "BoostKYCKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO",
-        "mangledName": "$s11BoostKYCKit0A15KYCDocumentTypeO",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "BoostKYCEventDelegate",
         "printedName": "BoostKYCEventDelegate",
         "children": [
+          {
+            "kind": "Function",
+            "name": "boostKYCDidCancel",
+            "printedName": "boostKYCDidCancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11BoostKYCKit0A16KYCEventDelegateP17boostKYCDidCancelyyF",
+            "mangledName": "$s11BoostKYCKit0A16KYCEventDelegateP17boostKYCDidCancelyyF",
+            "moduleName": "BoostKYCKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BoostKYCKit.BoostKYCEventDelegate>",
+            "sugared_genericSig": "<Self where Self : BoostKYCKit.BoostKYCEventDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "boostKYC",
@@ -734,1030 +1563,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "QuartzCore",
-        "printedName": "QuartzCore",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit"
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Environment",
-        "printedName": "Environment",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "production",
-            "printedName": "production",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BoostKYCKit.Environment.Type) -> BoostKYCKit.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "BoostKYCKit.Environment",
-                    "usr": "s:11BoostKYCKit11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BoostKYCKit.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "BoostKYCKit.Environment",
-                        "usr": "s:11BoostKYCKit11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11BoostKYCKit11EnvironmentO10productionyA2CmF",
-            "mangledName": "$s11BoostKYCKit11EnvironmentO10productionyA2CmF",
-            "moduleName": "BoostKYCKit"
-          },
-          {
-            "kind": "Var",
-            "name": "sandbox",
-            "printedName": "sandbox",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BoostKYCKit.Environment.Type) -> BoostKYCKit.Environment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Environment",
-                    "printedName": "BoostKYCKit.Environment",
-                    "usr": "s:11BoostKYCKit11EnvironmentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BoostKYCKit.Environment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "BoostKYCKit.Environment",
-                        "usr": "s:11BoostKYCKit11EnvironmentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:11BoostKYCKit11EnvironmentO7sandboxyA2CmF",
-            "mangledName": "$s11BoostKYCKit11EnvironmentO7sandboxyA2CmF",
-            "moduleName": "BoostKYCKit"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Environment",
-                "printedName": "BoostKYCKit.Environment",
-                "usr": "s:11BoostKYCKit11EnvironmentO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Environment",
-                "printedName": "BoostKYCKit.Environment",
-                "usr": "s:11BoostKYCKit11EnvironmentO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11BoostKYCKit11EnvironmentO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s11BoostKYCKit11EnvironmentO2eeoiySbAC_ACtFZ",
-            "moduleName": "BoostKYCKit",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11BoostKYCKit11EnvironmentO9hashValueSivp",
-            "mangledName": "$s11BoostKYCKit11EnvironmentO9hashValueSivp",
-            "moduleName": "BoostKYCKit",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11BoostKYCKit11EnvironmentO9hashValueSivg",
-                "mangledName": "$s11BoostKYCKit11EnvironmentO9hashValueSivg",
-                "moduleName": "BoostKYCKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11BoostKYCKit11EnvironmentO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s11BoostKYCKit11EnvironmentO4hash4intoys6HasherVz_tF",
-            "moduleName": "BoostKYCKit",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:11BoostKYCKit11EnvironmentO",
-        "mangledName": "$s11BoostKYCKit11EnvironmentO",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Function",
-        "name": "printInSDK",
-        "printedName": "printInSDK(_:)",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "Void",
-            "printedName": "()"
-          },
-          {
-            "kind": "TypeNominal",
-            "name": "Array",
-            "printedName": "[Any]",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              }
-            ],
-            "usr": "s:Sa"
-          }
-        ],
-        "declKind": "Func",
-        "usr": "s:11BoostKYCKit10printInSDKyyypd_tF",
-        "mangledName": "$s11BoostKYCKit10printInSDKyyypd_tF",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "funcSelfKind": "NonMutating"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BoostKYCKit"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BoostKYC",
-        "printedName": "BoostKYC",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BoostKYC",
-                "printedName": "BoostKYCKit.BoostKYC",
-                "usr": "s:11BoostKYCKit0A3KYCC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11BoostKYCKit0A3KYCC6sharedACvpZ",
-            "mangledName": "$s11BoostKYCKit0A3KYCC6sharedACvpZ",
-            "moduleName": "BoostKYCKit",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BoostKYC",
-                    "printedName": "BoostKYCKit.BoostKYC",
-                    "usr": "s:11BoostKYCKit0A3KYCC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11BoostKYCKit0A3KYCC6sharedACvgZ",
-                "mangledName": "$s11BoostKYCKit0A3KYCC6sharedACvgZ",
-                "moduleName": "BoostKYCKit",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "eventDelegate",
-            "printedName": "eventDelegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any BoostKYCKit.BoostKYCEventDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvp",
-            "mangledName": "$s11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvp",
-            "moduleName": "BoostKYCKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any BoostKYCKit.BoostKYCEventDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BoostKYCEventDelegate",
-                        "printedName": "any BoostKYCKit.BoostKYCEventDelegate",
-                        "usr": "s:11BoostKYCKit0A16KYCEventDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvg",
-                "mangledName": "$s11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvg",
-                "moduleName": "BoostKYCKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any BoostKYCKit.BoostKYCEventDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BoostKYCEventDelegate",
-                        "printedName": "any BoostKYCKit.BoostKYCEventDelegate",
-                        "usr": "s:11BoostKYCKit0A16KYCEventDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvs",
-                "mangledName": "$s11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvs",
-                "moduleName": "BoostKYCKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvM",
-                "mangledName": "$s11BoostKYCKit0A3KYCC13eventDelegateAA0a8KYCEventE0_pSgvM",
-                "moduleName": "BoostKYCKit",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "configure",
-            "printedName": "configure(apiKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11BoostKYCKit0A3KYCC9configure6apiKeyySS_tF",
-            "mangledName": "$s11BoostKYCKit0A3KYCC9configure6apiKeyySS_tF",
-            "moduleName": "BoostKYCKit",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startVerification",
-            "printedName": "startVerification(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BoostKYCDocumentType",
-                "printedName": "BoostKYCKit.BoostKYCDocumentType",
-                "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11BoostKYCKit0A3KYCC17startVerification3forSSAA0A15KYCDocumentTypeO_tYaKF",
-            "mangledName": "$s11BoostKYCKit0A3KYCC17startVerification3forSSAA0A15KYCDocumentTypeO_tYaKF",
-            "moduleName": "BoostKYCKit",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "Custom",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startVerification",
-            "printedName": "startVerification(for:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BoostKYCDocumentType",
-                "printedName": "BoostKYCKit.BoostKYCDocumentType",
-                "usr": "s:11BoostKYCKit0A15KYCDocumentTypeO"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Result<Swift.String, any Swift.Error>) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "Swift.Result<Swift.String, any Swift.Error>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:s6ResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11BoostKYCKit0A3KYCC17startVerification3for10completionyAA0A15KYCDocumentTypeO_ys6ResultOySSs5Error_pGctF",
-            "mangledName": "$s11BoostKYCKit0A3KYCC17startVerification3for10completionyAA0A15KYCDocumentTypeO_ys6ResultOySSs5Error_pGctF",
-            "moduleName": "BoostKYCKit",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:11BoostKYCKit0A3KYCC",
-        "mangledName": "$s11BoostKYCKit0A3KYCC",
-        "moduleName": "BoostKYCKit",
-        "declAttributes": [
-          "Final",
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1789,11 +1594,39 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Flow\/BoostKYCDocumentType.swift",
-      "kind": "StringLiteral",
-      "offset": 249,
-      "length": 4,
-      "value": "\"id\""
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Flow\/SyncFlowStage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 241,
+      "length": 12,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Flow\/SyncFlowStage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 263,
+      "length": 15,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Flow\/SyncFlowStage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Flow\/SyncFlowStage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 16,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Flow\/SyncFlowStage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 10,
+      "value": "5"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
@@ -1978,11 +1811,53 @@
       "value": "\"com.boostkyc.sessionQueue\""
     },
     {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/Navigation\/KYCNavigationController.swift",
+      "kind": "StringLiteral",
+      "offset": 948,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/Navigation\/KYCNavigationController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1015,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/Navigation\/KYCNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1511,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/Navigation\/KYCNavigationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1549,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/Status\/StatusViewModel.swift",
       "kind": "Array",
       "offset": 295,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/LivenessVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 889,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/LivenessVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1179,
+      "length": 17,
+      "value": "\"livenessHandler\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
@@ -2118,6 +1993,13 @@
       "value": "\"place_of_birth_detail_en__province\""
     },
     {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/BoostKYCDocumentType.swift",
+      "kind": "StringLiteral",
+      "offset": 249,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
       "filePath": "\/Users\/olehhrechyn\/Library\/Developer\/Xcode\/DerivedData\/BoostKYCKit-cwclulwweerticgkknsydhvxhqkg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BoostKYCKit\/IntermediateBuildFilesPath\/BoostKYCKit.build\/Release-iphoneos\/BoostKYCKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 645,
@@ -2193,6 +2075,13 @@
       "offset": 2245,
       "length": 21,
       "value": "\"camb-id-test_BLURED\""
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Library\/Developer\/Xcode\/DerivedData\/BoostKYCKit-cwclulwweerticgkknsydhvxhqkg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BoostKYCKit\/IntermediateBuildFilesPath\/BoostKYCKit.build\/Release-iphoneos\/BoostKYCKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2398,
+      "length": 14,
+      "value": "\"oleh-id-test\""
     }
   ]
 }

@@ -10,21 +10,19 @@ import QuartzCore
 import Swift
 import SwiftUI
 import UIKit
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum BoostKYCError : Swift.Error, Foundation.LocalizedError {
-  case userCanceledFlow
-  case initializationFailed(reason: Swift.String)
-  case failedToFindPresentingViewController
-  case missingPlistKey(_: Swift.String)
-  case cameraPermissionDenied
-  case somethingWentWrong
+@_hasMissingDesignatedInitializers final public class BoostKYC {
+  public static let shared: BoostKYCKit.BoostKYC
+  weak final public var eventDelegate: (any BoostKYCKit.BoostKYCEventDelegate)?
+  final public func configure(apiKey: Swift.String)
+  @_Concurrency.MainActor final public func startVerification(for type: BoostKYCKit.BoostKYCDocumentType) async throws
   #if compiler(>=5.3) && $NonescapableTypes
-  public var errorDescription: Swift.String? {
-    get
-  }
+  final public func startVerification(for type: BoostKYCKit.BoostKYCDocumentType, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
   #endif
+  @objc deinit
 }
 public enum BoostKYCDocumentType : Swift.String, Swift.Decodable {
   case idCard
@@ -37,31 +35,22 @@ public enum BoostKYCDocumentType : Swift.String, Swift.Decodable {
     get
   }
 }
-public protocol BoostKYCEventDelegate : AnyObject {
-  func boostKYC(didCapturePhoto photoData: Foundation.Data, for documentType: BoostKYCKit.BoostKYCDocumentType)
-}
-public enum Environment {
-  case production
-  case sandbox
-  public static func == (a: BoostKYCKit.Environment, b: BoostKYCKit.Environment) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+public enum BoostKYCError : Swift.Error, Foundation.LocalizedError {
+  case initializationFailed(reason: Swift.String)
+  case failedToFindPresentingViewController
+  case missingPlistKey(_: Swift.String)
+  case cameraPermissionDenied
+  case somethingWentWrong
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
     get
   }
-}
-public func printInSDK(_ items: Any...)
-@_hasMissingDesignatedInitializers final public class BoostKYC {
-  public static let shared: BoostKYCKit.BoostKYC
-  weak final public var eventDelegate: (any BoostKYCKit.BoostKYCEventDelegate)?
-  final public func configure(apiKey: Swift.String)
-  @_Concurrency.MainActor final public func startVerification(for type: BoostKYCKit.BoostKYCDocumentType) async throws -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public func startVerification(for type: BoostKYCKit.BoostKYCDocumentType, completion: @escaping (Swift.Result<Swift.String, any Swift.Error>) -> Swift.Void)
   #endif
-  @objc deinit
+}
+public protocol BoostKYCEventDelegate : AnyObject {
+  func boostKYCDidCancel()
+  func boostKYC(didCapturePhoto photoData: Foundation.Data, for documentType: BoostKYCKit.BoostKYCDocumentType)
 }
 extension BoostKYCKit.BoostKYCDocumentType : Swift.Equatable {}
 extension BoostKYCKit.BoostKYCDocumentType : Swift.Hashable {}
 extension BoostKYCKit.BoostKYCDocumentType : Swift.RawRepresentable {}
-extension BoostKYCKit.Environment : Swift.Equatable {}
-extension BoostKYCKit.Environment : Swift.Hashable {}

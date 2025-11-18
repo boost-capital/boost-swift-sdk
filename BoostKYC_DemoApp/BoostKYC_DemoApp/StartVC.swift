@@ -53,9 +53,8 @@ private extension StartVC {
             guard let self else { return }
             
             switch result {
-            case .success(let status):
-                print("SDK Flow Completed Successfully. Status: \(status)")
-                self.showAlert(title: "Success", message: "Status: \(status)")
+            case .success:
+                self.showAlert(title: "Success", message: "Status: DONE")
                 
             case .failure(let error):
                 self.showAlert(title: "Error", message: error.localizedDescription)
@@ -72,7 +71,11 @@ private extension StartVC {
 
 // MARK: - BoostKYCEventDelegate
 extension StartVC: BoostKYCEventDelegate {
+    func boostKYCDidCancel() {
+        showAlert(title: "Notice", message: "User has canceled the flow.")
+    }
+    
     func boostKYC(didCapturePhoto photoData: Data, for documentType: BoostKYCDocumentType) {
-        print("StartVC received intermediate photo! Type: \(documentType.rawValue), Size: \(photoData.count) bytes")
+        print("StartVC received intermediate photo! Type: \(documentType.rawValue), Size: \(photoData.count / 1024) kilobytes")
     }
 }
