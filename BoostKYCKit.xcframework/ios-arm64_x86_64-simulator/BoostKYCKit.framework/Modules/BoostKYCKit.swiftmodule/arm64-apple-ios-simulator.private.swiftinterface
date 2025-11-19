@@ -41,6 +41,7 @@ public enum BoostKYCError : Swift.Error, Foundation.LocalizedError {
   case missingPlistKey(_: Swift.String)
   case cameraPermissionDenied
   case somethingWentWrong
+  case userCanceled
   #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
@@ -48,7 +49,6 @@ public enum BoostKYCError : Swift.Error, Foundation.LocalizedError {
   #endif
 }
 public protocol BoostKYCEventDelegate : AnyObject {
-  func boostKYCDidCancel()
   func boostKYC(didCapturePhoto photoData: Foundation.Data, for documentType: BoostKYCKit.BoostKYCDocumentType)
 }
 extension BoostKYCKit.BoostKYCDocumentType : Swift.Equatable {}

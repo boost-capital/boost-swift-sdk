@@ -71,10 +71,6 @@ private extension StartVC {
 
 // MARK: - BoostKYCEventDelegate
 extension StartVC: BoostKYCEventDelegate {
-    func boostKYCDidCancel() {
-        showAlert(title: "Notice", message: "User has canceled the flow.")
-    }
-    
     func boostKYC(didCapturePhoto photoData: Data, for documentType: BoostKYCDocumentType) {
         print("StartVC received intermediate photo! Type: \(documentType.rawValue), Size: \(photoData.count / 1024) kilobytes")
     }

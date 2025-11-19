@@ -1351,6 +1351,43 @@
           },
           {
             "kind": "Var",
+            "name": "userCanceled",
+            "printedName": "userCanceled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BoostKYCKit.BoostKYCError.Type) -> BoostKYCKit.BoostKYCError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BoostKYCError",
+                    "printedName": "BoostKYCKit.BoostKYCError",
+                    "usr": "s:11BoostKYCKit0A8KYCErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BoostKYCKit.BoostKYCError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BoostKYCError",
+                        "printedName": "BoostKYCKit.BoostKYCError",
+                        "usr": "s:11BoostKYCKit0A8KYCErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11BoostKYCKit0A8KYCErrorO12userCanceledyA2CmF",
+            "mangledName": "$s11BoostKYCKit0A8KYCErrorO12userCanceledyA2CmF",
+            "moduleName": "BoostKYCKit"
+          },
+          {
+            "kind": "Var",
             "name": "errorDescription",
             "printedName": "errorDescription",
             "children": [
@@ -1473,30 +1510,6 @@
         "name": "BoostKYCEventDelegate",
         "printedName": "BoostKYCEventDelegate",
         "children": [
-          {
-            "kind": "Function",
-            "name": "boostKYCDidCancel",
-            "printedName": "boostKYCDidCancel()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11BoostKYCKit0A16KYCEventDelegateP17boostKYCDidCancelyyF",
-            "mangledName": "$s11BoostKYCKit0A16KYCEventDelegateP17boostKYCDidCancelyyF",
-            "moduleName": "BoostKYCKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : BoostKYCKit.BoostKYCEventDelegate>",
-            "sugared_genericSig": "<Self where Self : BoostKYCKit.BoostKYCEventDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
           {
             "kind": "Function",
             "name": "boostKYC",
@@ -1858,139 +1871,6 @@
       "offset": 1179,
       "length": 17,
       "value": "\"livenessHandler\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 1471,
-      "length": 36,
-      "value": "\"place_of_birth_detail_en__province\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 1551,
-      "length": 35,
-      "value": "\"place_of_birth_detail_en__commune\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 1631,
-      "length": 36,
-      "value": "\"place_of_birth_detail_en__district\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 1712,
-      "length": 36,
-      "value": "\"place_of_birth_detail_km__province\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 1792,
-      "length": 35,
-      "value": "\"place_of_birth_detail_km__commune\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 1872,
-      "length": 36,
-      "value": "\"place_of_birth_detail_km__district\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 1951,
-      "length": 33,
-      "value": "\"address_detail_km__house_number\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2028,
-      "length": 34,
-      "value": "\"address_detail_km__street_number\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2101,
-      "length": 28,
-      "value": "\"address_detail_km__village\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2168,
-      "length": 28,
-      "value": "\"address_detail_km__commune\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2236,
-      "length": 29,
-      "value": "\"address_detail_km__district\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2305,
-      "length": 29,
-      "value": "\"address_detail_km__province\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2374,
-      "length": 29,
-      "value": "\"address_detail_en__province\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2442,
-      "length": 28,
-      "value": "\"address_detail_en__commune\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2510,
-      "length": 29,
-      "value": "\"address_detail_en__district\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2578,
-      "length": 28,
-      "value": "\"address_detail_en__village\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2650,
-      "length": 34,
-      "value": "\"address_detail_en__street_number\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/NationalIDOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 2727,
-      "length": 33,
-      "value": "\"address_detail_en__house_number\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Services\/APIService\/EkycCore API Requests\/ML\/OCR\/Additional models\/PassportOcrData.swift",
-      "kind": "StringLiteral",
-      "offset": 721,
-      "length": 36,
-      "value": "\"place_of_birth_detail_en__province\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/BoostKYCDocumentType.swift",
