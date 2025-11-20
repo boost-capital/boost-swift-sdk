@@ -1686,133 +1686,140 @@
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 1402,
+      "offset": 1482,
       "length": 15,
       "value": "\"Quality Check\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 1459,
+      "offset": 1539,
       "length": 18,
       "value": "\"Document Parsing\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 1517,
+      "offset": 1601,
+      "length": 20,
+      "value": "\"Liveness Detection\""
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
+      "kind": "StringLiteral",
+      "offset": 1661,
       "length": 16,
       "value": "\"Liveness Check\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 1576,
+      "offset": 1720,
       "length": 19,
       "value": "\"Facial Comparison\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 1632,
+      "offset": 1776,
       "length": 13,
       "value": "\"Fraud Check\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 1719,
+      "offset": 1863,
       "length": 15,
       "value": "\"Issues found:\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 1812,
+      "offset": 1956,
       "length": 154,
       "value": "\"In actual sdk, document parsing runs automatically in the background once the quality check is approved, while the customer continues to the next check.\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 1996,
+      "offset": 2140,
       "length": 105,
       "value": "\"In actual sdk, document parsing runs in the background while the customer do liveness and other checks.\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 2141,
+      "offset": 2285,
       "length": 146,
       "value": "\"The Liveness check validates both user authenticity and selfie quality to ensure accurate facial comparison. Liveness threshold is configurable.\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 2330,
+      "offset": 2474,
       "length": 46,
       "value": "\"Facial comparison threshold is configurable.\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 2413,
+      "offset": 2557,
       "length": 149,
       "value": "\"In actual sdk, fraud check runs automatically in the background once the quality check is approved, while the customer continues to the next check.\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 2642,
+      "offset": 2786,
       "length": 24,
       "value": "\"Start Document Parsing\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 2701,
+      "offset": 2845,
       "length": 19,
       "value": "\"Resubmit Document\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 2760,
+      "offset": 2904,
       "length": 26,
       "value": "\"Start Liveness Detection\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 2834,
+      "offset": 2978,
       "length": 25,
       "value": "\"Start Facial Comparison\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 2903,
+      "offset": 3047,
       "length": 21,
       "value": "\"Redo Liveness Check\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 2974,
+      "offset": 3118,
       "length": 30,
       "value": "\"Redo Selfie \/ Liveness Check\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 3046,
+      "offset": 3190,
       "length": 19,
       "value": "\"Start Fraud Check\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Localization\/L10n.swift",
       "kind": "StringLiteral",
-      "offset": 3096,
+      "offset": 3240,
       "length": 6,
       "value": "\"Done\""
     },
@@ -1825,29 +1832,36 @@
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/Navigation\/KYCNavigationController.swift",
-      "kind": "StringLiteral",
-      "offset": 948,
-      "length": 7,
-      "value": "\"xmark\""
+      "kind": "IntegerLiteral",
+      "offset": 891,
+      "length": 2,
+      "value": "30"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/Navigation\/KYCNavigationController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1015,
-      "length": 2,
-      "value": "17"
+      "kind": "StringLiteral",
+      "offset": 953,
+      "length": 19,
+      "value": "\"xmark.circle.fill\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1511,
+      "offset": 1190,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/Navigation\/KYCNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1516,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYCKit\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "FloatLiteral",
-      "offset": 1549,
+      "offset": 1554,
       "length": 3,
       "value": "0.0"
     },

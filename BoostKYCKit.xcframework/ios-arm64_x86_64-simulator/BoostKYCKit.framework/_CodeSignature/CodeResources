@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		m6wLjvu0Xg7JbWJZ9Ups6Vd9skQ=
+		dapsbWacAHVD0aCnWwuvgcgX4O4=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		R1Y1jm1Nn4/aHxQP+8ylBdC48m4=
+		uWoevZlAkraCVxwj7mC2CRd0os0=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		m6wLjvu0Xg7JbWJZ9Ups6Vd9skQ=
+		dapsbWacAHVD0aCnWwuvgcgX4O4=
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FCpz9suF7t7E3SHx09eXEq7/Rp8=
+		5lapTF4Gm46jIhWyOdTaXPIg5P4=
 		</data>
 		<key>StatusViewController.nib</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ldH6FGlxp79gxeIpz7jsUmJOsEm00KBXA0+17wp3y+o=
+			TitBcNa6qIF20YKftoqZJWAL9NFL9lHFCXxivdu9zJA=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eMFqljIQ8H5zgPhK5Z23oQBYuRIUGI/gdP6jriOAPmk=
+			+mugAJjrcFiOUNsk8MU105qWa3yqFl7C6dV6ft2XN70=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ldH6FGlxp79gxeIpz7jsUmJOsEm00KBXA0+17wp3y+o=
+			TitBcNa6qIF20YKftoqZJWAL9NFL9lHFCXxivdu9zJA=
 			</data>
 		</dict>
 		<key>Modules/BoostKYCKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZNJeZK3NVIqlcgEldPXf+r4VEtyS4Oo/ek/YQEdnt0M=
+			gMX+9BHL2xWEgX7dMK0fi4OTr6EthN0asdIfMnlRSK0=
 			</data>
 		</dict>
 		<key>StatusViewController.nib</key>
