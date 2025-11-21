@@ -7,22 +7,18 @@
 //
 
 import UIKit
-import BoostKYCKit
+import BoostKYC
 
 class StartVC: UIViewController {
     @IBOutlet weak var beginButton: UIButton?
-
-    private let boostKYC = BoostKYC.shared
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        beginButton?.layer.cornerRadius = 26
-
-        boostKYC.configure(apiKey: "bk_swift_sdk_internal_YsZBoRjxi9UhHBhXuqVVFnRz35x82WBEu8HbLLm20N0")
-        boostKYC.eventDelegate = self
+        
+        BKYC.shared.configure(apiKey: "your_api_key_here")
+        BKYC.shared.eventDelegate = self
     }
-
+    
     @IBAction func cameraButtonPressed(_ sender: UIButton) {
         showBottomMenu(from: sender)
     }
@@ -42,22 +38,22 @@ private extension StartVC {
         }))
         
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
-
+        
         present(alert, animated: true)
     }
-
-    func openSDK(for type: BoostKYCDocumentType) {
+    
+    func openSDK(for type: BKYCDocumentType) {
         
-        boostKYC.startVerification(for: type) { [weak self] result in
+        BKYC.shared.startVerification(for: type) { [weak self] result in
             
             guard let self else { return }
             
             switch result {
-            case .success:
-                self.showAlert(title: "Success", message: "Status: DONE")
-                
-            case .failure(let error):
-                self.showAlert(title: "Error", message: error.localizedDescription)
+                case .success:
+                    self.showAlert(title: "Success", message: "Status: DONE")
+                    
+                case .failure(let error):
+                    self.showAlert(title: "Error", message: error.localizedDescription)
             }
         }
     }
@@ -69,9 +65,9 @@ private extension StartVC {
     }
 }
 
-// MARK: - BoostKYCEventDelegate
-extension StartVC: BoostKYCEventDelegate {
-    func boostKYC(didCapturePhoto photoData: Data, for documentType: BoostKYCDocumentType) {
+// MARK: - BKYCEventDelegate
+extension StartVC: BKYCEventDelegate {
+    func boostKYC(didCapturePhoto photoData: Data, for documentType: BKYCDocumentType) {
         print("StartVC received intermediate photo! Type: \(documentType.rawValue), Size: \(photoData.count / 1024) kilobytes")
     }
 }

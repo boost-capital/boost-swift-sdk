@@ -4,20 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "BoostKYCKit",
+    name: "BoostKYC",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v13)
     ],
     products: [
         .library(
-            name: "BoostKYCKit",
-            targets: ["BoostKYCKit"]
+            name: "BoostKYC",
+            targets: ["BoostKYC"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "BoostKYCKit",
-            path: "./BoostKYCKit.xcframework"
+            name: "BoostKYC",
+            path: "./BoostKYC.xcframework"
         )
     ]
 )

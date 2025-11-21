@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FE573082EC695F9003A96C0 /* BoostKYCKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE573062EC69548003A96C0 /* BoostKYCKit.xcframework */; };
-		8FE573092EC695F9003A96C0 /* BoostKYCKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE573062EC69548003A96C0 /* BoostKYCKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FB35F2D2ECF59C900B49D8D /* BoostKYC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB35F2C2ECF59C900B49D8D /* BoostKYC.xcframework */; };
+		8FB35F2E2ECF59C900B49D8D /* BoostKYC.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8FB35F2C2ECF59C900B49D8D /* BoostKYC.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +18,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8FE573092EC695F9003A96C0 /* BoostKYCKit.xcframework in Embed Frameworks */,
+				8FB35F2E2ECF59C900B49D8D /* BoostKYC.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -27,7 +27,7 @@
 
 /* Begin PBXFileReference section */
 		8F2ADFF32EBD417B00FEE86F /* BoostKYC_DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoostKYC_DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FE573062EC69548003A96C0 /* BoostKYCKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BoostKYCKit.xcframework; path = ../BoostKYCKit.xcframework; sourceTree = SOURCE_ROOT; };
+		8FB35F2C2ECF59C900B49D8D /* BoostKYC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = BoostKYC.xcframework; path = ../BoostKYC.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FE573082EC695F9003A96C0 /* BoostKYCKit.xcframework in Frameworks */,
+				8FB35F2D2ECF59C900B49D8D /* BoostKYC.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		8F4C7C892EBE14A20064B4AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8FE573062EC69548003A96C0 /* BoostKYCKit.xcframework */,
+				8FB35F2C2ECF59C900B49D8D /* BoostKYC.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -222,7 +222,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 14;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
