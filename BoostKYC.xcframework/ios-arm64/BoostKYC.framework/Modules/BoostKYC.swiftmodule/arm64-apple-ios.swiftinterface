@@ -1,9 +1,8 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
-// swift-module-flags: -target arm64-apple-ios13 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BoostKYC
+// swift-module-flags: -target arm64-apple-ios12 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BoostKYC
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFoundation
-import Combine
 import DeveloperToolsSupport
 import Foundation
 import QuartzCore
@@ -14,15 +13,25 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum BKYCFlowType {
+  case sync
+  case async
+  public static func == (a: BoostKYC.BKYCFlowType, b: BoostKYC.BKYCFlowType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers final public class BKYC {
   public static let shared: BoostKYC.BKYC
   weak final public var eventDelegate: (any BoostKYC.BKYCEventDelegate)?
   final public func configure(apiKey: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor final public func startVerification(for type: BoostKYC.BKYCDocumentType, from vc: UIKit.UIViewController? = nil) async throws
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  @available(iOS 13.0, *)
+  nonisolated(nonsending) final public func startVerification(for type: BoostKYC.BKYCDocumentType, flow: BoostKYC.BKYCFlowType = .async, from vc: UIKit.UIViewController? = nil) async throws
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  final public func startVerification(for type: BoostKYC.BKYCDocumentType, from vc: UIKit.UIViewController? = nil, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
+  final public func startVerification(for type: BoostKYC.BKYCDocumentType, flow: BoostKYC.BKYCFlowType = .async, from vc: UIKit.UIViewController? = nil, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
   #endif
   @objc deinit
 }
@@ -53,6 +62,8 @@ public enum BKYCError : Swift.Error, Foundation.LocalizedError {
 public protocol BKYCEventDelegate : AnyObject {
   func boostKYC(didCapturePhoto photoData: Foundation.Data, for documentType: BoostKYC.BKYCDocumentType)
 }
+extension BoostKYC.BKYCFlowType : Swift.Equatable {}
+extension BoostKYC.BKYCFlowType : Swift.Hashable {}
 extension BoostKYC.BKYCDocumentType : Swift.Equatable {}
 extension BoostKYC.BKYCDocumentType : Swift.Hashable {}
 extension BoostKYC.BKYCDocumentType : Swift.RawRepresentable {}

@@ -6,43 +6,47 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		XE6FkDdfEPJtE0+Q+BK+PovvYMY=
+		g70Odt5YDbrNOuNaeC9pxB9Ldyw=
 		</data>
-		<key>CameraVC.nib</key>
+		<key>CameraVC.nib/objects-13.0+.nib</key>
 		<data>
 		vUijFGZu9v+qFONJVw6qpOgIrJw=
 		</data>
+		<key>CameraVC.nib/runtime.nib</key>
+		<data>
+		EJ3iDraLcKeVPTyPsAiUeqmvUZ4=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		KtqNGKJSREreWPiZ9c0oZX8rQRY=
+		UMMma2aQRHZduOZqhvoVPJHO7UA=
 		</data>
 		<key>Modules/BoostKYC.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ppKDUaZU9qZAWQJYarsjPKzBRws=
+		cUtK0n4WAKxvd3c3sl/mgPuXw38=
 		</data>
 		<key>Modules/BoostKYC.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		zj1qaGg0M5ys17oP1JHqyXPcWak=
+		DjrV4A8q40ednnfJgNkWYm7mtfI=
 		</data>
 		<key>Modules/BoostKYC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		tKgh5fXEWG9f+ihZYwSuO5u8XBk=
+		NtgJtOiRFWLZ0rGGIFB/V9Eq0lY=
 		</data>
 		<key>Modules/BoostKYC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		zj1qaGg0M5ys17oP1JHqyXPcWak=
+		DjrV4A8q40ednnfJgNkWYm7mtfI=
 		</data>
 		<key>Modules/BoostKYC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KEN0CUTlR1RTs+t6oASom/EFjcQ=
+		CcDBaSV2V+hfXbsjKIKqbjlrwbc=
 		</data>
-		<key>StatusViewController.nib/objects-14.0+.nib</key>
+		<key>StatusViewController.nib/objects-13.0+.nib</key>
 		<data>
-		FSVOL9+AzugXJWUAr9ZqjSyyFzI=
+		GXpKhEsbiFTWZWEsFYU2gh/uHhg=
 		</data>
 		<key>StatusViewController.nib/runtime.nib</key>
 		<data>
-		+J1KYuQxKILjJVbkAr+64sFhEe0=
+		XglLKvpcg0vEPidrmAeYMQ8G+mM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,63 +55,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lT2P+7pRr/+fIrulsotBqYEt8GgdYzQHza1GqsBZEtM=
+			rU5KU41QhNwv2uQICpjaQ87eet54Az3iWGCs4rotOAk=
 			</data>
 		</dict>
-		<key>CameraVC.nib</key>
+		<key>CameraVC.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			DWTTcmcTlPps69SU8T0K2LAwDFFZLDgMoI+NFVG1fow=
 			</data>
 		</dict>
+		<key>CameraVC.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g5BPDmyCfQEZ2z8ZBvThNKWRR+pfRjc3qLtcToIGkNM=
+			</data>
+		</dict>
 		<key>Modules/BoostKYC.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O6Uw4s0EkT30LazfPgqOLudrxKuYwg/A4O7/j84U8jE=
+			tWeDqHc4Kugh1d+d8Qspq4tXkzPOdNq3EioLdN4Gi7A=
 			</data>
 		</dict>
 		<key>Modules/BoostKYC.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jCt83Yy/q7XbL2CMzkM9SlKY8YZiP5e1ndJZ1Xx9Si8=
+			HJ9+HAp4g6L/A3+xW1NFwYs+eCePa4LkmqtHBvB+oDI=
 			</data>
 		</dict>
 		<key>Modules/BoostKYC.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0MzK+rnfOunEHWBULm1sy/KHGieWMlA/L1RLbOIxnC0=
+			/Rq0eLRkwV3l7C9juL0LHsR0H9vx6CRbo7bXcMmqxLw=
 			</data>
 		</dict>
 		<key>Modules/BoostKYC.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jCt83Yy/q7XbL2CMzkM9SlKY8YZiP5e1ndJZ1Xx9Si8=
+			HJ9+HAp4g6L/A3+xW1NFwYs+eCePa4LkmqtHBvB+oDI=
 			</data>
 		</dict>
 		<key>Modules/BoostKYC.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6r+RjXh3aM/LHfEFnEiDn7lF21hAyLSCDeYcECi/rDI=
+			UAoFxjFIVPzfCi6HFEp2/Rvza9HI2ysPxD35bnvxYpw=
 			</data>
 		</dict>
-		<key>StatusViewController.nib/objects-14.0+.nib</key>
+		<key>StatusViewController.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aZ7Y9CZatGNRODdQBv7lM0zfPZKOqSqr4TM4M9r8rws=
+			t3SLj/fRTmkJNQ/VRMXJybIMoH3biPCn8tNDmzXS3hc=
 			</data>
 		</dict>
 		<key>StatusViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X+z/6/cgOoK/M1bn2EDQjpiSnyWwwkORYwMwAwp5KaM=
+			bcU9ljHeCPCOKgwTNtD4iigZuP6T0tJqydfFqYuoHrE=
 			</data>
 		</dict>
 	</dict>

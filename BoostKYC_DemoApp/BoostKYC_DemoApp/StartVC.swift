@@ -44,7 +44,7 @@ private extension StartVC {
     
     func openSDK(for type: BKYCDocumentType) {
         
-        BKYC.shared.startVerification(for: type) { [weak self] result in
+        BKYC.shared.startVerification(for: type, flow: .sync) { [weak self] result in
             
             guard let self else { return }
             
