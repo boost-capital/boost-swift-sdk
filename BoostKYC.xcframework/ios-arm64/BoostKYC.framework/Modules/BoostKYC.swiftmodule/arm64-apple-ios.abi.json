@@ -2218,13 +2218,6 @@
       "value": "\"livenessHandler\""
     },
     {
-      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Setup\/SDKConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 339,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/BKYCDocumentType.swift",
       "kind": "StringLiteral",
       "offset": 324,
