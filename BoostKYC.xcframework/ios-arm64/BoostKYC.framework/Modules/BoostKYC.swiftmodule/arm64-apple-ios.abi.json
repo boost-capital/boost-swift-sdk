@@ -56,6 +56,26 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BoostKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -517,6 +537,36 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BoostKYC",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -558,227 +608,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "BoostKYC"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BKYCFlowType",
-        "printedName": "BKYCFlowType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "sync",
-            "printedName": "sync",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BoostKYC.BKYCFlowType.Type) -> BoostKYC.BKYCFlowType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BKYCFlowType",
-                    "printedName": "BoostKYC.BKYCFlowType",
-                    "usr": "s:8BoostKYC12BKYCFlowTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BoostKYC.BKYCFlowType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BKYCFlowType",
-                        "printedName": "BoostKYC.BKYCFlowType",
-                        "usr": "s:8BoostKYC12BKYCFlowTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8BoostKYC12BKYCFlowTypeO4syncyA2CmF",
-            "mangledName": "$s8BoostKYC12BKYCFlowTypeO4syncyA2CmF",
-            "moduleName": "BoostKYC",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "async",
-            "printedName": "async",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(BoostKYC.BKYCFlowType.Type) -> BoostKYC.BKYCFlowType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BKYCFlowType",
-                    "printedName": "BoostKYC.BKYCFlowType",
-                    "usr": "s:8BoostKYC12BKYCFlowTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "BoostKYC.BKYCFlowType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BKYCFlowType",
-                        "printedName": "BoostKYC.BKYCFlowType",
-                        "usr": "s:8BoostKYC12BKYCFlowTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:8BoostKYC12BKYCFlowTypeO5asyncyA2CmF",
-            "mangledName": "$s8BoostKYC12BKYCFlowTypeO5asyncyA2CmF",
-            "moduleName": "BoostKYC",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BKYCFlowType",
-                "printedName": "BoostKYC.BKYCFlowType",
-                "usr": "s:8BoostKYC12BKYCFlowTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BKYCFlowType",
-                "printedName": "BoostKYC.BKYCFlowType",
-                "usr": "s:8BoostKYC12BKYCFlowTypeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8BoostKYC12BKYCFlowTypeO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s8BoostKYC12BKYCFlowTypeO2eeoiySbAC_ACtFZ",
-            "moduleName": "BoostKYC",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:8BoostKYC12BKYCFlowTypeO9hashValueSivp",
-            "mangledName": "$s8BoostKYC12BKYCFlowTypeO9hashValueSivp",
-            "moduleName": "BoostKYC",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:8BoostKYC12BKYCFlowTypeO9hashValueSivg",
-                "mangledName": "$s8BoostKYC12BKYCFlowTypeO9hashValueSivg",
-                "moduleName": "BoostKYC",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8BoostKYC12BKYCFlowTypeO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s8BoostKYC12BKYCFlowTypeO4hash4intoys6HasherVz_tF",
-            "moduleName": "BoostKYC",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:8BoostKYC12BKYCFlowTypeO",
-        "mangledName": "$s8BoostKYC12BKYCFlowTypeO",
-        "moduleName": "BoostKYC",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          }
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -982,7 +811,7 @@
           {
             "kind": "Function",
             "name": "startVerification",
-            "printedName": "startVerification(for:flow:from:)",
+            "printedName": "startVerification(for:sessionToken:from:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -997,10 +826,18 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "BKYCFlowType",
-                "printedName": "BoostKYC.BKYCFlowType",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:8BoostKYC12BKYCFlowTypeO"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1019,8 +856,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8BoostKYC4BKYCC17startVerification3for4flow4fromyAA16BKYCDocumentTypeO_AA08BKYCFlowJ0OSo16UIViewControllerCSgtYaKF",
-            "mangledName": "$s8BoostKYC4BKYCC17startVerification3for4flow4fromyAA16BKYCDocumentTypeO_AA08BKYCFlowJ0OSo16UIViewControllerCSgtYaKF",
+            "usr": "s:8BoostKYC4BKYCC17startVerification3for12sessionToken4fromyAA16BKYCDocumentTypeO_SSSgSo16UIViewControllerCSgtYaKF",
+            "mangledName": "$s8BoostKYC4BKYCC17startVerification3for12sessionToken4fromyAA16BKYCDocumentTypeO_SSSgSo16UIViewControllerCSgtYaKF",
             "moduleName": "BoostKYC",
             "intro_iOS": "13.0",
             "declAttributes": [
@@ -1036,7 +873,7 @@
           {
             "kind": "Function",
             "name": "startVerification",
-            "printedName": "startVerification(for:flow:from:completion:)",
+            "printedName": "startVerification(for:sessionToken:from:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1051,10 +888,18 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "BKYCFlowType",
-                "printedName": "BoostKYC.BKYCFlowType",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
                 "hasDefaultArg": true,
-                "usr": "s:8BoostKYC12BKYCFlowTypeO"
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1104,8 +949,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8BoostKYC4BKYCC17startVerification3for4flow4from10completionyAA16BKYCDocumentTypeO_AA08BKYCFlowK0OSo16UIViewControllerCSgys6ResultOyyts5Error_pGctF",
-            "mangledName": "$s8BoostKYC4BKYCC17startVerification3for4flow4from10completionyAA16BKYCDocumentTypeO_AA08BKYCFlowK0OSo16UIViewControllerCSgys6ResultOyyts5Error_pGctF",
+            "usr": "s:8BoostKYC4BKYCC17startVerification3for12sessionToken4from10completionyAA16BKYCDocumentTypeO_SSSgSo16UIViewControllerCSgys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s8BoostKYC4BKYCC17startVerification3for12sessionToken4from10completionyAA16BKYCDocumentTypeO_SSSgSo16UIViewControllerCSgys6ResultOyyts5Error_pGctF",
             "moduleName": "BoostKYC",
             "declAttributes": [
               "Final",
@@ -1889,6 +1734,27 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Extensions\/UIViewController+Activity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 215,
+      "length": 7,
+      "value": "0xB0057"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Extensions\/UIViewController+Alert.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Extensions\/UIViewController+Alert.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Flow\/Sync\/SyncFlowStage.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
@@ -2114,85 +1980,92 @@
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 640,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "FloatLiteral",
-      "offset": 878,
+      "offset": 1003,
       "length": 4,
       "value": "44.0"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1287,
+      "offset": 1412,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1345,
+      "offset": 1470,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1376,
+      "offset": 1501,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1421,
+      "offset": 1546,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1611,
+      "offset": 1736,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1817,
+      "offset": 1942,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 1880,
+      "offset": 2005,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 2057,
+      "offset": 2182,
       "length": 5,
       "value": "\"✕\""
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2372,
+      "offset": 2497,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "FloatLiteral",
-      "offset": 2410,
+      "offset": 2535,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/olehhrechyn\/Repositories\/swift-ekyc-sdk\/BoostKYC\/Scenes\/Navigation\/KYCNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2762,
+      "offset": 2887,
       "length": 5,
       "value": "false"
     },
@@ -2293,27 +2166,6 @@
       "offset": 2081,
       "length": 9,
       "value": "\"Success\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Library\/Developer\/Xcode\/DerivedData\/BoostKYC-gghvcaaltlhededyrfmxgmikeupr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BoostKYC\/IntermediateBuildFilesPath\/BoostKYC.build\/Release-iphoneos\/BoostKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2222,
-      "length": 14,
-      "value": "\"camb-id-test\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Library\/Developer\/Xcode\/DerivedData\/BoostKYC-gghvcaaltlhededyrfmxgmikeupr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BoostKYC\/IntermediateBuildFilesPath\/BoostKYC.build\/Release-iphoneos\/BoostKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2381,
-      "length": 21,
-      "value": "\"camb-id-test_BLURED\""
-    },
-    {
-      "filePath": "\/Users\/olehhrechyn\/Library\/Developer\/Xcode\/DerivedData\/BoostKYC-gghvcaaltlhededyrfmxgmikeupr\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BoostKYC\/IntermediateBuildFilesPath\/BoostKYC.build\/Release-iphoneos\/BoostKYC.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2534,
-      "length": 14,
-      "value": "\"oleh-id-test\""
     }
   ]
 }

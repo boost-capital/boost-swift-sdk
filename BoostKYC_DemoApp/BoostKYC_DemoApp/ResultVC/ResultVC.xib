@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24412" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_3" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24405"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ResultVC" customModule="BoostKYC_DemoApp" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="i1V-FP-7P3" id="bc8-gt-ptI"/>
+                <outlet property="titleLabel" destination="B85-Xl-bPf" id="Suz-o2-4gv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify your information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="B85-Xl-bPf">
+                    <rect key="frame" x="78.000000000000014" y="136" width="246.33333333333337" height="29"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="i1V-FP-7P3">
+                    <rect key="frame" x="0.0" y="213" width="402" height="493"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75T-oi-ztR">
+                    <rect key="frame" x="34" y="730" width="334" height="52"/>
+                    <color key="backgroundColor" name="accentBlueColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="r6y-av-msl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Confirm"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="26"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="confirmButtonPressed:" destination="-1" eventType="touchUpInside" id="JR4-3A-1w8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="B85-Xl-bPf" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="1yb-tG-zNZ"/>
+                <constraint firstItem="75T-oi-ztR" firstAttribute="top" secondItem="i1V-FP-7P3" secondAttribute="bottom" constant="24" id="7Gm-Sb-Acb"/>
+                <constraint firstItem="i1V-FP-7P3" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="NuZ-Gh-K9d"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="75T-oi-ztR" secondAttribute="bottom" constant="24" id="Y2h-Oz-gaO"/>
+                <constraint firstItem="B85-Xl-bPf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="12" id="Zm5-Vg-aCD"/>
+                <constraint firstItem="i1V-FP-7P3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="dyh-WF-I0a"/>
+                <constraint firstItem="75T-oi-ztR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="gzA-C3-Bgu"/>
+                <constraint firstItem="75T-oi-ztR" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="miA-Xv-SHg"/>
+                <constraint firstItem="i1V-FP-7P3" firstAttribute="top" secondItem="B85-Xl-bPf" secondAttribute="bottom" constant="48" id="zfH-wt-iXh"/>
+            </constraints>
+            <point key="canvasLocation" x="49.253731343283576" y="89.244851258581235"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="accentBlueColor">
+            <color red="0.0" green="0.53333333333333333" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

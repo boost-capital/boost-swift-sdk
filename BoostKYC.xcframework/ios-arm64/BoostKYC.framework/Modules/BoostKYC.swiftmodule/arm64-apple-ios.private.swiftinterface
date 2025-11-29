@@ -13,25 +13,16 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum BKYCFlowType {
-  case sync
-  case async
-  public static func == (a: BoostKYC.BKYCFlowType, b: BoostKYC.BKYCFlowType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers final public class BKYC {
   public static let shared: BoostKYC.BKYC
   weak final public var eventDelegate: (any BoostKYC.BKYCEventDelegate)?
   final public func configure(apiKey: Swift.String)
   #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
   @available(iOS 13.0, *)
-  nonisolated(nonsending) final public func startVerification(for type: BoostKYC.BKYCDocumentType, flow: BoostKYC.BKYCFlowType = .async, from vc: UIKit.UIViewController? = nil) async throws
+  nonisolated(nonsending) final public func startVerification(for type: BoostKYC.BKYCDocumentType, sessionToken: Swift.String? = nil, from vc: UIKit.UIViewController? = nil) async throws
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  final public func startVerification(for type: BoostKYC.BKYCDocumentType, flow: BoostKYC.BKYCFlowType = .async, from vc: UIKit.UIViewController? = nil, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
+  final public func startVerification(for type: BoostKYC.BKYCDocumentType, sessionToken: Swift.String? = nil, from vc: UIKit.UIViewController? = nil, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
   #endif
   @objc deinit
 }
@@ -62,8 +53,6 @@ public enum BKYCError : Swift.Error, Foundation.LocalizedError {
 public protocol BKYCEventDelegate : AnyObject {
   func boostKYC(didCapturePhoto photoData: Foundation.Data, for documentType: BoostKYC.BKYCDocumentType)
 }
-extension BoostKYC.BKYCFlowType : Swift.Equatable {}
-extension BoostKYC.BKYCFlowType : Swift.Hashable {}
 extension BoostKYC.BKYCDocumentType : Swift.Equatable {}
 extension BoostKYC.BKYCDocumentType : Swift.Hashable {}
 extension BoostKYC.BKYCDocumentType : Swift.RawRepresentable {}

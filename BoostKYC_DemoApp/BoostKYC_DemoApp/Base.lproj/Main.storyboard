@@ -194,16 +194,45 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Begin eKYC"/>
+                                <state key="normal" title="Begin eKYC (SYNC)"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="26"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="cameraButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GbV-Q6-PBj"/>
+                                    <action selector="syncFlowButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aBd-kE-nhY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpo-CG-4lS">
+                                <rect key="frame" x="34" y="721" width="334" height="52"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Begin eKYC (ASYNC)"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="26"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="asyncFlowButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TrX-dY-7Ta"/>
+                                </connections>
+                            </button>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vcz-9a-vhP">
+                                <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="jL3-PY-5si">
+                                        <rect key="frame" x="182.66666666666666" y="418.66666666666669" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.75" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="jL3-PY-5si" firstAttribute="centerY" secondItem="Vcz-9a-vhP" secondAttribute="centerY" id="cjV-eL-UnH"/>
+                                    <constraint firstItem="jL3-PY-5si" firstAttribute="centerX" secondItem="Vcz-9a-vhP" secondAttribute="centerX" id="sCR-Mf-FwR"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -212,23 +241,31 @@
                             <constraint firstItem="8vx-7d-F2T" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="CXR-mO-zJd"/>
                             <constraint firstItem="1AH-z5-2iN" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FN4-FW-s9J"/>
                             <constraint firstItem="1AH-z5-2iN" firstAttribute="top" secondItem="8vx-7d-F2T" secondAttribute="bottom" constant="50" id="Feg-1t-Smo"/>
+                            <constraint firstItem="lpo-CG-4lS" firstAttribute="top" secondItem="1AH-z5-2iN" secondAttribute="bottom" constant="12" id="JSG-U3-o3y"/>
                             <constraint firstItem="8vx-7d-F2T" firstAttribute="top" secondItem="Q5d-pR-hcV" secondAttribute="bottom" constant="22" id="KzV-Xw-RdI"/>
                             <constraint firstItem="0XK-1y-6CL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NEL-Ak-NQK"/>
+                            <constraint firstItem="Vcz-9a-vhP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PI8-8P-VWq"/>
+                            <constraint firstItem="lpo-CG-4lS" firstAttribute="height" secondItem="1AH-z5-2iN" secondAttribute="height" id="RBk-ht-ew1"/>
+                            <constraint firstAttribute="trailing" secondItem="Vcz-9a-vhP" secondAttribute="trailing" id="Vsb-0E-IYR"/>
+                            <constraint firstItem="Vcz-9a-vhP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bFO-AB-RPf"/>
                             <constraint firstItem="Q5d-pR-hcV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="euI-k5-dee"/>
+                            <constraint firstItem="1AH-z5-2iN" firstAttribute="centerX" secondItem="lpo-CG-4lS" secondAttribute="centerX" id="fTM-aK-4Qy"/>
                             <constraint firstItem="Q5d-pR-hcV" firstAttribute="top" secondItem="0XK-1y-6CL" secondAttribute="bottom" constant="66" id="gXO-fb-7fo"/>
                             <constraint firstItem="0XK-1y-6CL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" priority="750" constant="8" id="j2p-h3-66X"/>
+                            <constraint firstAttribute="bottom" secondItem="Vcz-9a-vhP" secondAttribute="bottom" id="jc5-i4-0uc"/>
                             <constraint firstItem="1AH-z5-2iN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="sXk-L6-jNa"/>
                             <constraint firstItem="Q5d-pR-hcV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uRl-Xa-osa"/>
                             <constraint firstItem="0XK-1y-6CL" firstAttribute="top" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="120" id="vNP-GX-vRi"/>
+                            <constraint firstItem="lpo-CG-4lS" firstAttribute="width" secondItem="1AH-z5-2iN" secondAttribute="width" id="x2k-7x-xZv"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="beginButton" destination="1AH-z5-2iN" id="E5h-CL-loa"/>
+                        <outlet property="loadingView" destination="Vcz-9a-vhP" id="a56-l4-Q5K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="64.01673640167364"/>
+            <point key="canvasLocation" x="74.626865671641781" y="63.844393592677342"/>
         </scene>
     </scenes>
     <resources>
